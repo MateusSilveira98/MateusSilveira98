@@ -1,0 +1,12 @@
+[core]
+	editor = code --wait
+[user]
+	email = seu email
+	name = seu nome
+[alias]
+	open-config = !git config --global -e
+	c-all = !git add --all && git commit -m
+	c = !git commit -m
+	pp = !git pull && git push
+	s = !git status -s
+	log-detail = !git log --pretty=format:'%C(blue)%n %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
